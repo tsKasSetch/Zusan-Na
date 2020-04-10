@@ -1,2 +1,2 @@
-# Zusan-na
-ZUSAN!
+# Zusan-Na
+TOTTEMO ZUSAN!
