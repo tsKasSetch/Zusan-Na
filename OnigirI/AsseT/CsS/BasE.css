@@ -1,6 +1,7 @@
 * {
     margin: 0rem;
     padding: 0rem;
+    font-size: 1rem;
 }
 
 BodY {
@@ -8,18 +9,61 @@ BodY {
     color: mintcream;
 }
 
+.MembeR-LisT > H1 {
+    padding: 0.5rem;
+}
+
+.MenbeR-InformatioN {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid 1px;
+    width: calc(40% - 2rem);
+    float: left;
+}
+@media screen and (max-width: 480px) {
+
+    .MenbeR-InformatioN {
+        float: none;
+        width: 100%;
+        margin: 0.5rem 0rem;
+        padding: 0.5rem;
+        border-left: none;
+        border-right: none;
+    }
+    
+}
+
+.MenbeR-InformatioN .MaiN-ContenT {
+    height: 5rem;
+    width: 40%;
+    vertical-align: middle;
+    float: left;
+}
+
 .MenbeR-InformatioN HeadeR {
     height: 1.5rem;
-    vertical-align: middle;
 }
 
 .MenbeR-InformatioN H1 {
     float: left;
     font-size: 1rem;
+    height: 1.5rem;
+}
+
+.MenbeR-InformatioN MaiN {
+    height: 5rem;
+}
+
+.MenbeR-InformatioN I {
+    font-size: 0.7rem;
 }
 
 .MenbeR-InformatioN .IcoN-TwitteR {
     float: left;
-    height: 100%;
+    height: 1.5rem;
 
+}
+
+.MenbeR-InformatioN .MembeR-ImagE {
+    width: 8rem;
 }
