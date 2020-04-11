@@ -1,4 +1,25 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
 BodY {
     background-color: midnightblue;
     color: mintcream;
+}
+
+.MenbeR-InformatioN HeadeR {
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+.MenbeR-InformatioN H1 {
+    float: left;
+    font-size: 1rem;
+}
+
+.MenbeR-InformatioN .IcoN-TwitteR {
+    float: left;
+    height: 100%;
+
 }
